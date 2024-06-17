@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    width: 100%;
+}
+#main #page1
+{
+    background-image: url("");
+    height: 100vh;
+    width: 100%;
+    background-color: #C4BDB3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+#main #page1 div{
+    
+    height: 65%;
+    width: 27%;
+    background-color: black;
+    display: flex;
+}
+#main #page1 div form{
+    width: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+}
+#main #page1 div form h1{
+    font-family: Editorial New Light;
+    color: #C4BDB3;
+    font-size: 32px;
+    font-weight: 1000;
+    margin-bottom: 6%;
+    /* margin-top: -10%; */
+}
+#main #page1 div form #input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#main #page1 div form #input #inp1{
+    position: relative;
+    width:98%;
+    font-size: 22px;
+    border: none;
+    border-bottom: 3px solid white;
+    background-color: black;
+    color: #C4BDB3;
+    outline: none;
+}
+#main #page1 div form #input #inp2{
+    margin-top: 6%;
+    width:98%;
+    font-size: 22px;
+    border: none;
+    color: #979693;
+    border-bottom: 3px solid white;
+    background-color: black;
+    outline: none;
+}
+#main #page1 div form #input #inp3{
+    width:56%;
+    font-size: 22px;
+    border: none;
+    color: #C4BDB3;
+    border-bottom: 3px solid white;
+    background-color: black;
+    outline: .5px;
+}
+#main #page1 div form #input #loginBtn{
+    font-family: Editorial New Light;
+    color: black;
+    background-color: #C4BDB3;
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 10%;
+    padding: 2% 48%;
+    cursor: pointer;
+    border-radius: 20px;
+}
+#main #page1 div form #input #btn{
+    font-family: Editorial New Light;
+    color: rgb(236, 233, 233);
+    background-color: blue;
+    border: 2px solid white;
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 10%;
+    padding: 2% 5%;
+    cursor: pointer;
+    border-radius: 20px;
+}
+#main #page1 div form #input #btn:hover{
+    color: #b1a595;
+    border: 2px solid  white;
+    background-color: black;
+    transition: all .3s ease-in-out;
+    }
+#main #page1 div form #p1{
+    display: flex;
+    color: wheat;
+    font-size: 16;
+    margin-top: 5%;
+    color: #C4BDB3;
+}
+ #main #page1 div form #p1 span {
+    color: rgb(68, 68, 237);
+    letter-spacing: 1px;
+    font-family: Editorial New Light;
+    font-size: 20px;
+    font-weight: 700;
+}
